@@ -1,23 +1,28 @@
 <!doctype html>
 <html>
-<head>
-<meta charset="UTF-8">
-<title>No Rezone NTM Mailing Lists</title>
-</head>
-<?php
-    $action = $_GET["action"];
-    $email = $_POST["email-address"];
-    echo $action;
-    
-    if ($action == null && $email == null) {
-        header("HTTP/1.1 400 Bad Request");
-        
-    }
-    
+    <head>
+        <meta charset="UTF-8">
+        <title>No Rezone NTM Mailing List</title>
+    </head>
+    <?php
+        $action = $_GET["action"];
+        $email = $_POST["email-address"];
+        echo $action;
+
+        if ($action == null && $email == null) {
+            header("HTTP/1.1 400 Bad Request");
+
+        }
+
         function emailExists($email) {
-            global $filename;
-            $recipients = explode("\n", file_get_contents("recipients.txt"));
-            return in_array($email, $recipients);
+            if ($email == null) {
+                return false;
+            }
+            else{
+                global $filename;
+                $recipients = explode("\n", file_get_contents("recipients.txt"));
+                return in_array($email, $recipients, true);
+            }
         }
 
 
@@ -46,10 +51,10 @@
                 echo "This email address isn't subscribed.";
             }
         }
-?>
-
-<body>
-    <?php
+    ?>
+    <body>
+        <?php
+        echo emailExists($email);
         switch($action) {
             case "unsubscribe":
                 unsubscribe($email);
@@ -58,13 +63,12 @@
                 subscribe($email);
                 break;
             case "retrieve":
-                ?><a href="mailto:Undisclosed%20Recipients<weareNTM@gmail.com>?bcc=<?php echo implode(',', explode("\n", file_get_contents($filename))); ?>">Send</a><?
+                ?><a href="mailto:Undisclosed%20Recipients<weareNTM@gmail.com>?bcc=<?php echo implode(',', explode("\n", file_get_contents($filename))); ?>">Send</a><?php
                 break;
             default:
                 echo "error";
                 break;
         }
-    
     ?>
-</body>
+    </body>
 </html>
