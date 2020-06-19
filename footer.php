@@ -10,6 +10,7 @@
                 <p class="py-3">Web application designed and programmed by Nathan Getz.</p>
                 </div>
             </footer>
+        <!--div class="vignette"></div-->
         <?php if (function_exists('customPageFooterScripts')){customPageFooterScripts();}?>
     </body>
 </html>
