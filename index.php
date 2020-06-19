@@ -26,21 +26,6 @@ if (isset($_SESSION['message']) && $_SESSION['message'])
         <a class="btn btn-outline-theme" href="#meeting">Learn more</a>
     </div>
 </div>
-
-<div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-autohide="false">
-  <div class="toast-header">
-    <img src="..." class="rounded mr-2" alt="...">
-    <strong class="mr-auto">Bootstrap</strong>
-    <small>11 mins ago</small>
-    <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
-      <span aria-hidden="true">&times;</span>
-    </button>
-  </div>
-  <div class="toast-body">
-    Hello, world! This is a toast message.
-  </div>
-</div>
-
 <section id="meeting">
     <hr class="my-lg-3 my-5">
     <h2 class="font-weight-light">Online Community Meeting</h2>
@@ -106,7 +91,7 @@ if (isset($_SESSION['message']) && $_SESSION['message'])
                         </p>
                     </li>
                     <br>
-                    <li><p class="lead">Please email Alicia Halberg with concerns/questions as they are required to be written up and added to the case file as well as passing the comments on to her supervisor and director.</p></li>
+                    <li><p class="lead">Please email Alicia Halberg with concerns/6questions as they are required to be written up and added to the case file as well as passing the comments on to her supervisor and director.</p></li>
                 </ul>
             </p>
         </div>
@@ -133,6 +118,12 @@ if (isset($_SESSION['message']) && $_SESSION['message'])
                 <ul>
                     <li><p>The rezoned development will add at least eight times the volume of traffic over the current zoning allowance.  The increased traffic volumes will cause an increase in accidents and pedestrian conflicts at many intersections including 60th Avenue and Easley Road and 58th Avenue and State Highway 93.</p></li>
                 </ul>
+                <div class="card text-center bg-dark text-white mb-4 mx-auto shadow border-0 rounded-lg overflow-hidden user-select-none cursor-default">
+                    <img src="images/NTM Traffic.png" class="card-img-top" alt="satellite image marked up showing development plan" style="width: 100%; object-fit: contain;">
+                    <div class="card-body">
+                        <p class="card-text lead">This is a satellite image, showing the areas in which traffic will be impacted by the development.</p>
+                    </div>
+                </div>
                 <h3>Geologic Hazards</h3>
                 <ul>
                     <li><p>The parcel is mapped by the US Geological Survey and Colorado Geologic Survey as being part of a dormant landslide (Geologic Maps: <a href="https://ngmdb.usgs.gov/Prodesc/proddesc_9511.htm">via ngmdb.usgs.gov</a>, <a href="https://coloradogeologicalsurvey.org/publications/landslide-susceptibility-jefferson-colorado/">via coloradogeologicalsurvey.org</a>). The increased development footprint from the rezoning will require a greater volume of earthwork when compared to current master plan. These new excavations and retaining walls could lower the stability of the slopes and cause damage to adjacent properties through new landsliding.</p></li>
@@ -257,7 +248,7 @@ if (isset($_SESSION['message']) && $_SESSION['message'])
 <div class="card shadow mt-5">
     <div class="card-body">
         <h3 class="card-title font-weight-light">Getting involved</h3>
-        <h5 class="card-text font-weight-light">To get involved and receive updates, please email: <a href="mailto:weareNTM@gmail.com">weareNTM@gmail.com</a></h5>
+        <h5 class="card-text font-weight-light">To get involved and receive updates, please email: <a href="mailto:kristen@norezonentm.com">kristen@norezonentm.com</a></h5>
     </div>
 </div>
 <div class="card shadow mt-5">
@@ -266,4 +257,5 @@ if (isset($_SESSION['message']) && $_SESSION['message'])
         <h5 class="card-text font-weight-light">We Are NTM is a grassroots community project that aims to protect the neighborhoods, environment, infrastructure and recreational value of North Table Mountain against a developer requested rezoning that would create precedent for the erection of large scale multifamily apartment complexes on many flanks of the popular Jefferson County park.</h5>
     </div>
 </div>
+
 <?php include_once('footer.php'); ?>
