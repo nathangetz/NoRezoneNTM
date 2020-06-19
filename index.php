@@ -101,6 +101,31 @@ if (isset($_SESSION['message']) && $_SESSION['message'])
     <img src="/images/rezoning-process.jpg" class="card-img-top" alt="a diagram of the steps that are taken to rezone an area">
     </div>
 </section>
+<section id="talking-points">
+    <hr class="my-lg-3 my-5">
+    <div class="card shadow my-4 mb-5">
+        <h2 class="card-header font-weight-light">Talking Points</h2>
+        <div class="card-body">
+            <p class="card-text">
+                <h3>On Current Petition</h3>
+                <ul>
+                    <li><p>Non-compatibility with existing land use and surrounding homes.</p></li>
+                    <li><p>Failure of the proposed rezoning to follow the current, Jefferson County approved Master Plan for the subject tracts of land.</p></li>
+                    <li><p>Inability of existing road infrastructure to accommodate the exponential increase in traffic and resulting congestion, which will create significant and unavoidable safety hazards in local neighborhoods as drivers divert off of main road ways to avoid congestion.</p></li>
+                    <li><p>Severe environmental impacts from construction, ongoing property maintenance, increased traffic on local trails / impacts on native wildlife and pollution increases.</p></li>
+                </ul>
+                <h3>Traffic/Congestion</h3>
+                <ul>
+                    <li><p>The rezoned development will add at least eight times the volume of traffic over the current zoning allowance.  The increased traffic volumes will cause an increase in accidents and pedestrian conflicts at many intersections including 60th Avenue and Easley Road and 58th Avenue and State Highway 93.</p></li>
+                </ul>
+                <h3>Geologic Hazards</h3>
+                <ul>
+                    <li><p>The parcel is mapped by the US Geological Survey and Colorado Geologic Survey as being part of a dormant landslide (Geologic Maps: <a href="https://ngmdb.usgs.gov/Prodesc/proddesc_9511.htm">via ngmdb.usgs.gov</a>, <a href="https://coloradogeologicalsurvey.org/publications/landslide-susceptibility-jefferson-colorado/">via coloradogeologicalsurvey.org</a>). The increased development footprint from the rezoning will require a greater volume of earthwork when compared to current master plan. These new excavations and retaining walls could lower the stability of the slopes and cause damage to adjacent properties through new landsliding.</p></li>
+                </ul>
+            </p>
+        </div>
+    </div>
+</section>
 <section id="files">
     <hr class="my-lg-3 my-5">
     <h2 class="font-weight-light">Files</h2>
@@ -220,4 +245,11 @@ if (isset($_SESSION['message']) && $_SESSION['message'])
         <h5 class="card-text font-weight-light">To get involved and receive updates, please email: <a href="mailto:weareNTM@gmail.com">weareNTM@gmail.com</a></h5>
     </div>
 </div>
+
+<div class="card text-center bg-dark text-white my-5 mx-auto shadow border-0 rounded-lg overflow-hidden user-select-none cursor-default">
+        <img src="images/development.png" class="card-img-top" alt="satellite image marked up showing development plan" style="width: 100%; object-fit: contain;">
+        <div class="card-body">
+            <p class="card-text lead">This is a satellite image, with an overlay outlining the area that the development will take up.</p>
+        </div>
+    </div> 
 <?php include_once('footer.php'); ?>
