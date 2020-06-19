@@ -69,6 +69,17 @@
                 echo "error";
                 break;
         }
+        $to = 'bob@example.com';
+
+        $subject = 'Subscription Request';
+
+        $headers = "From: " . strip_tags($_POST['req-email']) . "\r\n";
+        $headers .= "MIME-Version: 1.0\r\n";
+        $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
+        $adminLink = "https://admin.google.com/u/1/ac/groups/02grqrue0w1xn1b/members"
+        $msg = "A user has requested their email, $email, to be added to the mailing list. Click here to go to the members list: $adminLink";
+        $msg = wordwrap($msg,70);
+        mail("superflygetz@gmail.com",$subject,$msg);
     ?>
     </body>
 </html>
