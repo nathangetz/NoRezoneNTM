@@ -119,7 +119,7 @@ if (isset($_SESSION['message']) && $_SESSION['message'])
                     <li><p>The rezoned development will add at least eight times the volume of traffic over the current zoning allowance.  The increased traffic volumes will cause an increase in accidents and pedestrian conflicts at many intersections including 60th Avenue and Easley Road and 58th Avenue and State Highway 93.</p></li>
                 </ul>
                 <div class="card text-center bg-dark text-white mb-4 mx-auto shadow border-0 rounded-lg overflow-hidden user-select-none cursor-default">
-                    <img src="images/NTM Traffic.png" class="card-img-top" alt="satellite image marked up showing development plan" style="width: 100%; object-fit: contain;">
+                    <img src="images/NTM Traffic.png" class="card-img-top" alt="satellite image marked up showing traffic impacts" style="width: 100%; object-fit: contain;">
                     <div class="card-body">
                         <p class="card-text lead">This is a satellite image, showing the areas in which traffic will be impacted by the development.</p>
                     </div>
