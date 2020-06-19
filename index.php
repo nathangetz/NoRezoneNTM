@@ -26,6 +26,21 @@ if (isset($_SESSION['message']) && $_SESSION['message'])
         <a class="btn btn-outline-theme" href="#meeting">Learn more</a>
     </div>
 </div>
+
+<div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-autohide="false">
+  <div class="toast-header">
+    <img src="..." class="rounded mr-2" alt="...">
+    <strong class="mr-auto">Bootstrap</strong>
+    <small>11 mins ago</small>
+    <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="toast-body">
+    Hello, world! This is a toast message.
+  </div>
+</div>
+
 <section id="meeting">
     <hr class="my-lg-3 my-5">
     <h2 class="font-weight-light">Online Community Meeting</h2>
@@ -91,7 +106,7 @@ if (isset($_SESSION['message']) && $_SESSION['message'])
                         </p>
                     </li>
                     <br>
-                    <li><p class="lead">Please email Alicia Halberg with concerns/6questions as they are required to be written up and added to the case file as well as passing the comments on to her supervisor and director.</p></li>
+                    <li><p class="lead">Please email Alicia Halberg with concerns/questions as they are required to be written up and added to the case file as well as passing the comments on to her supervisor and director.</p></li>
                 </ul>
             </p>
         </div>
@@ -213,7 +228,7 @@ if (isset($_SESSION['message']) && $_SESSION['message'])
             <div class="card">
                 <div class="card-body">
                     <h4 class="card-title">Libby Szabo</h4>
-                    <p class="card-text"><a href="mailto:lsabo@jeffco.us">lsabo@jeffco.us</a></p>
+                    <p class="card-text"><a href="mailto:libby@libbyszabo.com">libby@libbyszabo.com</a></p>
                     <p class="card-text">303-271-6511</p>
                     <p class="card-text"><small class="text-muted">UP FOR RE-ELECTION 2020</small></p>
                 </div>
@@ -245,11 +260,10 @@ if (isset($_SESSION['message']) && $_SESSION['message'])
         <h5 class="card-text font-weight-light">To get involved and receive updates, please email: <a href="mailto:weareNTM@gmail.com">weareNTM@gmail.com</a></h5>
     </div>
 </div>
-
-<div class="card text-center bg-dark text-white my-5 mx-auto shadow border-0 rounded-lg overflow-hidden user-select-none cursor-default">
-        <img src="images/development.png" class="card-img-top" alt="satellite image marked up showing development plan" style="width: 100%; object-fit: contain;">
-        <div class="card-body">
-            <p class="card-text lead">This is a satellite image, with an overlay outlining the area that the development will take up.</p>
-        </div>
-    </div> 
+<div class="card shadow mt-5">
+    <div class="card-body">
+        <h3 class="card-title font-weight-light">Mission Statement</h3>
+        <h5 class="card-text font-weight-light">We Are NTM is a grassroots community project that aims to protect the neighborhoods, environment, infrastructure and recreational value of North Table Mountain against a developer requested rezoning that would create precedent for the erection of large scale multifamily apartment complexes on many flanks of the popular Jefferson County park.</h5>
+    </div>
+</div>
 <?php include_once('footer.php'); ?>
