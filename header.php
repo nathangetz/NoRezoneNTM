@@ -19,19 +19,16 @@
             if ($PageTitles == $page) {return " active";}
         }
         ?>
-            <header class="mb-auto py-3 px-lg-4 px-2 navbar navbar-dark fixed-top bg-dark nav-pagehead user-select-none">
-                <div class="container-lg navbar navbar-expand-lg">
-                    <span class="px-lg-3 cursor-default"><h5 class="pagehead-brand">No Rezone North Table Mountain</h5></span>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="navbar collapse navbar-collapse px-lg-3 px-5 row text-center flex-grow-0" id="navbar">
-                        <div class="col-lg-auto col-12"><a class="nav-link" href="#meeting">Community Meeting</a></div>
-                        <div class="col-lg-auto col-12"><a class="nav-link" href="#site-plan">Site Plan</a></div>
-                        <div class="col-lg-auto col-12"><a class="nav-link" href="#considerations">Considerations</a></div>
-                        <div class="col-lg-auto col-12"><a class="nav-link" href="#files">Files</a></div>
-                        <div class="col-lg-auto col-12"><a class="nav-link" href="#commissioners">Commissioners</a></div>
-                    </div>
+            <header class="mb-auto py-3 px-lg-4 px-2 navbar navbar-dark fixed-top bg-dark justify-content-between nav-pagehead user-select-none">
+                <div class="container-lg" id="navbar">
+                    <span class="px-lg-3 cursor-default text-nowrap"><h5 class="pagehead-brand">No Rezone North Table Mountain</h5></span>
+                    <nav class="navbar navbar-expand px-lg-3 px-0">
+                        <a class="nav-link" href="#meeting">Community Meeting</a>
+                        <a class="nav-link" href="#site-plan">Site Plan</a>
+                        <a class="nav-link" href="#considerations">Considerations</a>
+                        <a class="nav-link" href="#files">Files</a>
+                        <a class="nav-link" href="#commissioners">Commissioners</a>
+                    </nav>
                 </div>
             </header>
             <main role="main" class="flex-shrink-0 my-3 py-5 mx-auto">
