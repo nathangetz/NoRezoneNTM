@@ -248,7 +248,7 @@ if (isset($_SESSION['message']) && $_SESSION['message'])
 <div class="card shadow mt-5">
     <div class="card-body">
         <h3 class="card-title font-weight-light">Getting involved</h3>
-        <h5 class="card-text font-weight-light">To get involved and receive updates, please email: <a href="mailto:norezonentm@gmail.com">kristen@norezonentm.com</a></h5>
+        <h5 class="card-text font-weight-light">To get involved and receive updates, please email: <a href="mailto:kristen@norezonentm.com">kristen@norezonentm.com</a></h5>
     </div>
 </div>
 <div class="card shadow mt-5">
