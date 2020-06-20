@@ -5,7 +5,7 @@
             <?php if (function_exists('customPageFooter')){
             customPageFooter();
             }?>
-            <form method="POST" action="mail.php" class="py-3 needs-validation" novalidate>
+            <form method="POST" action="mail.php" id="mail-sign-up" class="py-3 needs-validation" novalidate>
                 <h3 class="text-light font-weight-lighter">To receive info and updates, subscribe to the No Rezone NTM mailing list:</h3>
                 <div class="input-group form-check my-3">
                     <input class="form-control" name="email-address" type="email"  size="64" maxLength="64" required placeholder="Email address..." aria-label="Email address" pattern=".+@." title="Enter a valid email address.">

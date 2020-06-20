@@ -17,7 +17,6 @@ if (isset($_SESSION['message']) && $_SESSION['message'])
 }
 ?>
 
-
 <div class="card text-center bg-dark text-white my-5 mx-auto shadow border-0 rounded-lg overflow-hidden user-select-none cursor-default" id="hero">
     <img src="images/IMG_1449.jpeg" class="card-img" alt="image" style="width: 100%; height: 30rem; object-fit: cover;">
     <div class="card-img-overlay px-lg-5 pb-lg-5 d-flex flex-column justify-content-end" style="background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.65) 50%, rgba(0,0,0,0.75))">
@@ -238,7 +237,7 @@ if (isset($_SESSION['message']) && $_SESSION['message'])
         <div class="col mb-4">
             <div class="card h-100">
                 <div class="card-body">
-                    <h5 class="card-title">Owner Acknowledgement</h5>
+                    <h5 class="card-title">Owner Acknowledgment</h5>
                     <p class="card-text small text-muted">(2 pages)</p>
                     <div class="btn-group w-75" role="group">
                         <a href="https://permitsearch.jeffco.us/amandaItoI/PublicDocs/Community%20Meeting/20-111516CMT%20Avilla%20North%20Table%20Mountain/1.%20Application%20Documents/Owner%20Acknowledgment.pdf" class="btn btn-outline-primary" target="_blank">1</a>
@@ -274,6 +273,15 @@ if (isset($_SESSION['message']) && $_SESSION['message'])
                     <h5 class="card-title">R-3 Zoning Details</h5>
                     <p class="card-text">Information on what the zone change request being filed entails.</p>
                     <a href="https://www.jeffco.us/DocumentCenter/View/1828/Zoning-Resolution-Adopted-June-1-2019-PDF?bidId=" class="btn btn-outline-primary stretched-link w-75" target="_blank">View</a>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Petition Template</h5>
+                    <p class="card-text">Please print out this document and gather as many signatures as possible.</p>
+                    <a href="petition-template.pdf" class="btn btn-outline-primary stretched-link w-75" download="Petition Template - Avilla North Table Mountain - FINAL 6-18-20.pdf">Download</a>
                 </div>
             </div>
         </div>

@@ -34,6 +34,12 @@
                         <div class="col-lg-auto col-12"><a class="nav-link" href="#files">Files</a></div>
                     </div>
                 </div>
+                <div class="alert alert-primary alert-dismissible fade show mt-lg-5 mt-md-2 mt-sm-1 mt-0" style="position: absolute; top: 100px;" role="alert">
+                    <strong>The mailing list sign-up is at the bottom of the page!</strong> <a href="#mail-sign-up">Click here</a> to jump to the bottom.
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
             </header>
             <main role="main" class="flex-shrink-0 my-3 py-5 mx-auto">
                 <div class="container-lg mt-5">
