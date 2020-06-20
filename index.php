@@ -39,8 +39,6 @@ if (isset($_SESSION['message']) && $_SESSION['message'])
             <p><a href="https://zoom.us/j/96607638957" rel="noopener" target="_blank" aria-label="Join the meeting here. Opens in new window">Join the meeting here.</a><a href="https://us02web.zoom.us/j/87169965758?pwd=djNabGZmUjdwNzRxQkF2a0FZbVFOZz09" rel="noopener" target="_blank" aria-label=" Opens in new window"><sup><img data-fr-image-pasted="true" src="https://www.jeffco.us/ImageRepository/Document?documentId=20422" alt="external_site_marker Opens in new window" class="fr-fic fr-dii" style="width: 16px;"></sup></a></p>
             <p><strong>Meeting ID:</strong> 966 0763 8957</p>
             <p><strong>Dial-in Option:</strong>+1 669-900-6833</p>
-            <p><em>&lt;Applicant presentation will be posted soon&gt;</em></p>
-            <p>The applicant will present their case, followed by a brief staff presentation about the County processes involved. These presentations will be followed by a question and answer session.</p>
             <p><strong>Applicant:&nbsp;</strong>Kayleigh Robinson (Norris Design) and Tyler Elick (NEXmetro Communities)<br><strong>Case Manager:&nbsp;</strong>Alicia Halberg, <a href="mailto:ahalberg@co.jefferson.co.us">email Alicia here</a> or call at 303-271-8778</p>
         </div>
     </div>
@@ -55,7 +53,19 @@ if (isset($_SESSION['message']) && $_SESSION['message'])
     <hr class="my-lg-3 my-5">
     <h2 class="font-weight-light">Site Plan</h2>
     <div class="card text-center bg-dark text-white my-5 mx-auto shadow border-0 rounded-lg overflow-hidden user-select-none cursor-default">
-        <embed class="card-image-top bg-white" src="images/Site Plan - 02.pdf" style="width: 100%; height: 0%; padding-top: 47.5%; object-fit: contain;"/>
+        <img src="images/site-plan-1.svg" class="card-img-top bg-white" alt="drawn site plan" style="width: 100%; object-fit: contain;">
+        <div class="card-body">
+            <p class="card-text lead">This is the site plan for the development.</p>
+        </div>
+    </div>
+    <div class="card text-center bg-dark text-white my-5 mx-auto shadow border-0 rounded-lg overflow-hidden user-select-none cursor-default">
+        <img src="images/site-plan-2.svg" class="card-img-top bg-white" alt="drawn site plan" style="width: 100%; object-fit: contain;">
+        <div class="card-body">
+            <p class="card-text lead">This is the site plan for the development.</p>
+        </div>
+    </div>
+    <div class="card text-center bg-dark text-white my-5 mx-auto shadow border-0 rounded-lg overflow-hidden user-select-none cursor-default">
+        <img src="images/site-plan-3.svg" class="card-img-top bg-white" alt="drawn site plan" style="width: 100%; object-fit: contain;">
         <div class="card-body">
             <p class="card-text lead">This is the site plan for the development.</p>
         </div>
@@ -159,11 +169,8 @@ if (isset($_SESSION['message']) && $_SESSION['message'])
             <div class="card h-100">
                 <div class="card-body">
                     <h5 class="card-title">Site Plan</h5>
-                    <p class="card-text small text-muted">(2 pages)</p>
-                    <div class="btn-group w-75" role="group">
-                        <a href="https://permitsearch.jeffco.us/amandaItoI/PublicDocs/Community%20Meeting/20-111516CMT%20Avilla%20North%20Table%20Mountain/1.%20Application%20Documents/Site%20Plan%20-%2001.pdf" class="btn btn-outline-primary" target="_blank">1</a>
-                        <a href="https://permitsearch.jeffco.us/amandaItoI/PublicDocs/Community%20Meeting/20-111516CMT%20Avilla%20North%20Table%20Mountain/1.%20Application%20Documents/Site%20Plan%20-%2002.pdf" class="btn btn-outline-primary" target="_blank">2</a>
-                    </div>
+                    <p class="card-text">The latest version of the site plan.</p>
+                    <a href="https://permitsearch.jeffco.us/amandaItoI/PublicDocs/Community%20Meeting/20-111516CMT%20Avilla%20North%20Table%20Mountain/1.%20Application%20Documents/Site%20Plan%20-%2002.pdf" class="btn btn-outline-primary stretched-link w-75" target="_blank">View</a>
                 </div>
             </div>
         </div>
