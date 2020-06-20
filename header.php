@@ -27,10 +27,11 @@
                     </button>
                     <div class="navbar collapse navbar-collapse px-lg-3 px-5 row text-center flex-grow-0" id="navbar">
                         <div class="col-lg-auto col-12"><a class="nav-link" href="#meeting">Community Meeting</a></div>
-                        <div class="col-lg-auto col-12"><a class="nav-link" href="#site-plan">Site Plan</a></div>
+                        <div class="col-lg-auto col-12"><a class="nav-link" href="#site-plans">Site Plans</a></div>
                         <div class="col-lg-auto col-12"><a class="nav-link" href="#considerations">Considerations</a></div>
-                        <div class="col-lg-auto col-12"><a class="nav-link" href="#files">Files</a></div>
+                        <div class="col-lg-auto col-12"><a class="nav-link" href="#talking-points">Talking Points</a></div>
                         <div class="col-lg-auto col-12"><a class="nav-link" href="#commissioners">Commissioners</a></div>
+                        <div class="col-lg-auto col-12"><a class="nav-link" href="#files">Files</a></div>
                     </div>
                 </div>
             </header>
