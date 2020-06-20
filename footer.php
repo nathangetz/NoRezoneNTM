@@ -6,19 +6,35 @@
             customPageFooter();
             }?>
             <form method="POST" action="mail.php" id="mail-sign-up" class="py-3">
-                <h3 class="text-light font-weight-lighter">To receive info and updates, subscribe to the No Rezone NTM mailing list:</h3>
-                <a href="mailto:kristen@norezonentm.com?subject=Subscribe%20to%20the%20No%20Rezone%20NTM%20Mailing%20List&body=Send%20this%20email%20with%20the%20address%20you%20would%20like%20added%20to%20the%20mailing%20list." class="btn btn-lg btn-outline-primary px-5 mb-5">Subscribe to the No Rezone NTM Mailing List</a>
-                <?/*div class="input-group my-3">
+                <div class="input-group my-3">
+                    <h3 class="text-light font-weight-lighter">To receive info and updates, subscribe to the No Rezone NTM mailing list:</h3>
                     <input class="form-control" name="email-address" type="email" required placeholder="Email address..." aria-label="Email address" pattern="\A[a-z0-9!#$%&'*+/=?^_‘{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_‘{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\z" title="Enter a valid email address.">
                     <div class="input-group-append">
                         <button class="btn btn-primary" type="submit"><span class="mx-2 mx-sm-3 mx-md-4 mx-lg-5">Subscribe</span></button>
                     </div>
                     <div class="invalid-feedback">Please enter a valid email address!</div>
                 </div>
-            </form*/?>
+            </form>
             <p class="py-3">Web application designed and programmed by Nathan Getz.</p>
             </div>
         </footer>
+        <script>
+             (function() {
+                 'use strict';
+                 window.addEventListener('load', function() {
+                     var forms = document.getElementsByClassName('needs-validation');
+                     var validation = Array.prototype.filter.call(forms, function(form) {
+                         form.addEventListener('submit', function(event) {
+                             if (form.checkValidity() === false) {
+                                 event.preventDefault();
+                                 event.stopPropagation();
+                             }
+                             form.classList.add('was-validated');
+                         }, false);
+                     });
+                 }, false);
+             })();
+         </script>
         <?php if (function_exists('customPageFooterScripts')){customPageFooterScripts();}?>
     </body>
 </html>
