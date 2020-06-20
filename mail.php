@@ -21,7 +21,7 @@
                 <div class="container-lg my-auto">
                     <?php
                     $email = $_POST["email-address"];
-                    $to = 'Kristen Marberry <kristen@norezonentm.com>';
+                    $to = 'Nathan Getz <webmaster@norezonentm.com>';
                     $subject = 'Subscription Request';
                     $headers = 'From: No Rezone NTM Mailing List <mailbot@norezonentm.com>' . "\r\n";
                     $headers .= 'Organization: No Rezone North Table Mountain' . "\r\n";
